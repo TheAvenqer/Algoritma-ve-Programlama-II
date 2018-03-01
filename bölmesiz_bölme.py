@@ -8,8 +8,7 @@ def ilk(sayi,bölünecek,sayac):
         return ilk(sayi,bölünecek,sayac)
 def ondalıklı(sayi,bölünecek,sayac):
     sayac+=0.1
-    sayac2+=1
-    if sayac2==0.9:
+    if sayac%1==0.9:
         if sayac*bölünecek==sayi:
             return sayac
         else:
